@@ -38,7 +38,7 @@ yarn package
 
 ## License
 
-MIT © [Electron React Boilerplate](https://github.com/electron-react-boilerplate)
+MIT © [eSports Cologne](https://github.com/eSports-Cologne-Dev)
 
 [github-actions-status]: https://github.com/electron-react-boilerplate/electron-react-boilerplate/workflows/Test/badge.svg
 [github-actions-url]: https://github.com/electron-react-boilerplate/electron-react-boilerplate/actions
