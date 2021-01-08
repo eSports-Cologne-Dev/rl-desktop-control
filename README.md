@@ -1,6 +1,6 @@
 # Rocket League Desktop Control
 
-
+![Travis Badge](https://api.travis-ci.org/eSports-Cologne-Dev/rl-desktop-control.svg?branch=master&status=started)
 
 ## Install
 
