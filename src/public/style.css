@@ -1,0 +1,151 @@
+.Overlay {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+
+.Overlay img {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.team-left {
+    position: absolute;
+    background-color: rgba(57, 99, 214, 0.7);
+    width: 450px;
+    height: 65px;
+    left: 340px;
+    top: 12px;
+    border-radius: 5px;
+    border-style: initial;
+    box-shadow: 0px 0px 3px 1px #737996;
+}
+
+.team-left .team-name {
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-shadow: 3px 3px 1px rgb(136, 139, 163);
+}
+
+.team-left .points-left {
+    width: 180px; 
+    height: 30px;
+    position: absolute;
+    left: 264px;
+    top: 64px;
+    background: rgba(57, 99, 214, 0.7);
+
+    border-radius: 2px;
+    /* Skew */
+    -webkit-transform: skew(-20deg); 
+    -moz-transform: skew(-20deg); 
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+
+#left-1 {
+    width: 40px;
+    height: 15px;
+    position: relative;
+    left: 10%;
+    top: 28%;
+
+    background-color: #888;
+}
+
+#left-2 {
+    width: 40px;
+    height: 15px;
+    position: fixed;
+    left: 40%;
+    top: 28%;
+
+    background-color: #888;    
+}
+
+
+#left-3 {
+    width: 40px;
+    height: 15px;
+    position: fixed;
+    left: 70%;
+    top: 28%;
+
+    background-color: #888;    
+}
+
+
+.team-right {
+    position: absolute;
+    background-color: rgba(236, 133, 74, 0.7);
+    width: 450px;
+    height: 65px;
+    left: 1128px;
+    top: 10px;
+
+    box-shadow: 0px 0px 3px 1px #737996;
+    border-radius: 5px;
+    border-style: initial;
+}
+
+.team-right .points-right {
+    width: 180px; 
+    height: 30px;
+    position: absolute;
+    left: 6px;
+    top: 64px;
+    background: rgba(236, 133, 74, 0.7);
+    
+    border-radius: 2px;
+    /* Skew */
+    -webkit-transform: skew(20deg); 
+    -moz-transform: skew(20deg); 
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
+
+.team-right .team-name {
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-shadow: 3px 3px 1px rgb(136, 139, 163);
+}
+
+#right-1 {
+    width: 40px;
+    height: 15px;
+    position: relative;
+    left: 10%;
+    top: 28%;
+
+    background-color: #888;
+}
+
+#right-2 {
+    width: 40px;
+    height: 15px;
+    position: fixed;
+    left: 40%;
+    top: 28%;
+
+    background-color: #888;    
+}
+
+
+#right-3 {
+    width: 40px;
+    height: 15px;
+    position: fixed;
+    left: 70%;
+    top: 28%;
+
+    background-color: #888;    
+}

@@ -71,7 +71,7 @@ const createWindow = async () => {
     show: false,
     width: 1024,
     height: 728,
-    icon: getAssetPath('icon.png'),
+    icon: getAssetPath('ECO_high_res_transp.png'),
     webPreferences: {
       nodeIntegration: true,
     },
@@ -130,3 +130,8 @@ app.on('activate', () => {
   // dock icon is clicked and there are no other windows open.
   if (mainWindow === null) createWindow();
 });
+
+// Launch Background Server
+const { fork } = require('child_process');
+
+const ps = fork(`${__dirname}/server.js`);
